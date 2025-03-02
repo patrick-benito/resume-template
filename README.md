@@ -33,4 +33,4 @@ Then use the `pats-resume` class in your LaTeX document:
 - 📄 You can add sections and entries to your resume.
 - 📏 You can choose the file format of your resume (A4 or Letter).
 - 💼 You can provide a `\tech` or `\consulting` command to show the relevant experience depending on the job you are applying for, by setting the `\def\techFlag{}` or `\def\consultingFlag{}` in the preamble.
-- 🎓 Similarly, you can use ``\gpa` to show your GPA if the `\def\gpaFlag{}` is set.
+- 🎓 Similarly, you can use `\gpa` to show your GPA if the `\def\gpaFlag{}` is set.
