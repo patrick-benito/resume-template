@@ -1,0 +1,73 @@
+\documentclass{ltxdoc}
+
+
+\title{Pat's Resume Template Documentation}
+\author{Patrick Benito Eberhard}
+\date{2025/03/02}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+The \texttt{pats-resume} class is designed for elegant resume formatting. It includes features for setting personal information, adding sections and entries, and customizing the layout.
+
+\section{Usage}
+To use this class, include the following in your LaTeX document:
+\begin{verbatim}
+\documentclass{pats-resume}
+\setname{Patrick}
+\setemail{pat@example.com}
+\setphone{+1234567890}
+\setlinkedin{linkedin.com/in/patrick}
+\setgithub{github.com/patrick}
+\begin{document}
+...
+\end{document}
+\end{verbatim}
+
+\section{Class Options}
+The \texttt{pats-resume} class supports the following options:
+\begin{itemize}
+  \item \texttt{9pt} - Sets the base font size to 9pt.
+\end{itemize}
+
+\section{Commands}
+The \texttt{pats-resume} class provides the following commands:
+\begin{itemize}
+  \item \verb|\setname{<name>}| - Sets the name.
+  \item \verb|\setemail{<email>}| - Sets the email.
+  \item \verb|\setphone{<phone>}| - Sets the phone number.
+  \item \verb|\setlinkedin{<linkedin>}| - Sets the LinkedIn profile.
+  \item \verb|\setgithub{<github>}| - Sets the GitHub profile.
+\end{itemize}
+
+\section{Environments}
+The \texttt{pats-resume} class provides the following environments:
+\begin{itemize}
+  \item \verb|\ResumeSection{<section>}| - Creates a new resume section.
+  \item \verb|\entry{<title>}{<subtitle>}{<location>}{<date>}| - Adds an entry.
+  \item \verb|\details{<details>}| - Adds details to an entry.
+  \item \verb|\tools{<tools>}| - Adds tools used in an entry.
+\end{itemize}
+
+\section{Examples}
+Here is an example of a resume using the \texttt{pats-resume} class:
+\begin{verbatim}
+\documentclass{pats-resume}
+\setname{Patrick Benito Eberhard}
+\setemail{patrick@fictionalemail.com}
+\setphone{+1 (650) 000-0000}
+\setlinkedin{linkedin.com/in/patrick-benito}
+\setgithub{github.com/patrick-benito}
+\begin{document}
+\ResumeSection{Education}
+\entry{Skyline University}{MSc in Robotics and Intelligent Systems}{Techburg, Techland}{2023 –- 2025}
+\details{
+  \item Relevant courses: Autonomous Vehicle Navigation, Advanced Robot Control, AI for Robotics.
+  \gpa{\item Current GPA: 9.8/10.0.}
+}
+\end{document}
+\end{verbatim}
+
+\end{document}

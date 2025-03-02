@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{resume}[2025/03/02 Pat's Resume Template]
+\ProvidesClass{pats-resume}[2025/03/02 Pat's Resume Template]
 
-\LoadClass[9pt]{article}
+\LoadClass{article}
 
 % Packages
 \RequirePackage[english]{babel}
