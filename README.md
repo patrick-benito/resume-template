@@ -11,18 +11,18 @@ An example of the resume is provided in the [example.tex](example.tex) file. You
 
 ## Usage
 
-If you are using Overleaf, you can simply use the `\documentclass{pats-resume-template}` command. Otherwise, make sure to copy the `pats-resume-template.cls` file to your project directory.
+If you are using Overleaf, you can simply use the `\documentclass{pats-resume}` command. Otherwise, make sure to copy the `pats-resume.cls` file to your project directory.
 
 ```
 /my-resume
-├── pats-resume-template.cls
+├── pats-resume.cls
 └── myresume.tex 
 ```
 
 Then use the `pats-resume` class in your LaTeX document:
 
 ```latex
-\documentclass{pats-resume-template}
+\documentclass{pats-resume}
 \begin{document}
 ... Your resume content here ...
 \end{document}
