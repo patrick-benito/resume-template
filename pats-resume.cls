@@ -37,6 +37,7 @@
 \titlespacing{\section}{0pt}{\smallskipamount}{\smallskipamount}
 \newcommand{\heading}[1]{{\Huge\color{black}\textbf{#1}}}
 \newcommand{\entry}[4]{\vspace{2pt}{{\textbf{\textcolor{black}{#1}}}}, \textcolor{black}{#2} \hfill \small\textcolor{black}{#3} \, \small\textcolor{customblue}{#4}}
+\newcommand{\skill}[4]{\vspace{2pt}{{\textbf{\textcolor{black}{#1}}}}: \textcolor{black}{#2} \hfill \small\textcolor{black}{#3} \, \small\textcolor{customblue}{#4}}
 \newcommand{\tableentry}[3]{\textsc{#1} & #2\expandafter\ifstrequal\expandafter{#3}{}{\\}{\\[2pt]}}
 \newcommand{\info}[2]{\textcolor{black}{\textbf{#1:}} #2}
 \newcommand{\details}[1]{\begin{itemize}[noitemsep,leftmargin=5mm]#1\end{itemize}}
@@ -53,6 +54,7 @@
 \newcommand{\linkedin}{}
 \newcommand{\github}{}
 
+% Setters
 \newcommand{\setname}[1]{\renewcommand{\name}{#1}}
 \newcommand{\setemail}[1]{\renewcommand{\email}{#1}}
 \newcommand{\setphone}[1]{\renewcommand{\phone}{#1}}
